@@ -11,7 +11,7 @@ import {
 import { useFormState } from 'react-dom';
 
 import * as actions from '@/actions';
-import FormButton from './common/form-button';
+import FormButton from '../common/form-button';
 
 const TopicCreateForm = () => {
   const [formState, action] = useFormState(actions.createTopic, { errors: {} });
